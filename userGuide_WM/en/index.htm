@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>User guide title</title><script src="res_INEOS_USER_GUIDE/jquery-3.2.1.min.js"></script><link href="res_INEOS_USER_GUIDE/INEOS_USER_GUIDE.css" rel="stylesheet"><script language="javascript">
+                    var resFolder="res_INEOS_USER_GUIDE";
+                    var language_val = "en-GB";
+                    var language_spec = "en";</script><script language="javascript" src="res_INEOS_USER_GUIDE/CollapsibleLists.js"></script><script language="javascript">
+            var openNavBar = false;
+            function menuClick() {
+            toggleNavBar();
+            openNavBar = openNavBar ? false : true;
+            }
+            function toggleNavBar() {
+            if (!openNavBar) {
+            document.getElementById("navigation_fly").className = " ";
+            }
+            else {
+            document.getElementById("navigation_fly").className = "nodisplay";
+            }
+            }
+            $(document).ready(function () {
+            CollapsibleLists.apply();
+            });
+
+            function nextButton(){
+            var html_file = window.location.href.split('.htm')[0].split('/').slice(-1);
+            console.log(html_file)
+            var current_li = document.querySelector('[href^="'+html_file+'"]')
+            console.log(current_li)
+            var current_pageNo = current_li.getAttribute('id');
+            console.log(current_pageNo)
+            var next_Page = "page_" + (parseInt(current_pageNo.split('_').slice(-1))+1);
+            console.log(next_Page)
+            var next_li = document.querySelector('[id^="'+next_Page+'"]')
+            console.log(next_li)
+            if(next_li){
+            window.open(next_li.getAttribute('href'),"_self")
+            }else{
+            window.open('ListOfGraphics.html',"_self")
+            }
+            }
+
+            function backButton(){
+            var html_file = window.location.href.split('.htm')[0].split('/').slice(-1);
+            console.log(html_file)
+            var current_li = document.querySelector('[href^="'+html_file+'"]')
+            console.log(current_li)
+            var current_pageNo = current_li.getAttribute('id');
+            console.log(current_pageNo)
+            var next_Page = "page_" + (parseInt(current_pageNo.split('_').slice(-1))-1);
+            console.log(next_Page)
+            var next_li = document.querySelector('[id^="'+next_Page+'"]')
+            console.log(next_li)
+            if(next_li){
+            window.open(next_li.getAttribute('href'),"_self")
+            }else{
+            window.open('titlePage.html',"_self")
+            }
+            }
+
+        </script><link rel="stylesheet" type="text/css" href="res_INEOS_USER_GUIDE/CollapsibleLists.css">
+</head>
+<body>
+<div class="container no-panel">
+<div id="solo-svg-holder" class="no-show">
+<div id="title-bar">
+<div class="left">
+<div id="app-figure-title"></div>
+</div>
+<div class="right"><button class="helpButton" title="Help">?</button><button id="button-close" data-link="close" title="Close">×
+                                </button></div>
+</div><svg id="solo-svg"></svg></div>
+<div id="solo-canvas-holder">
+<div id="title-bar">
+<div class="left">
+<div id="app-figure-title1"></div>
+</div>
+<div class="right"><button class="helpButton" title="Help">?</button><button id="button-close-canvas" data-link="close" title="Close">×
+                                </button></div>
+</div>
+<div id="toolbar-range" class="cortona3dsolo-popover"><input id="toolbar-range-input" type="range"><div id="toolbar-range-selection"></div>
+</div>
+<div id="toolbar-buttons" class="cortona3dsolo-popover">
+<div id="toolbar-left-content"><button id="button-playback" title="Play">Play</button><button id="button-stop" title="Stop">Stop</button><button id="button-back" title="Prev">&lt;</button><button id="button-next" title="Next">&gt;</button></div>
+<div id="toolbar-right-content">
+<div class="right"><span id="freeze-viewpoint"><label for="vpfreeze">Freeze Viewpoint:</label><input id="vpfreeze" type="checkbox"></span><span id="procedure-speed"><label for="speed-selector">Speed:</label><select id="speed-selector"><option value="0.5">x1/2</option>
+<option value="1" selected="">x1</option>
+<option value="2">x2</option></select></span></div>
+</div>
+</div><canvas id="solo-canvas"></canvas><div id="eventBox" class="alert-message no-show">
+<div id="alert-message-type" class="alert-message-type">
+<div id="alert-message-frame">
+<div id="alert-message-caption"></div>
+<div id="alert-message-body"></div>
+<div id="alert-message-footer"><button id="button-event">OK</button></div>
+</div>
+</div>
+</div>
+</div>
+<div id="procedure">
+<div id="header">
+<div id="navigation_fly" class="nodisplay">
+<ul class="collapsibleList">
+<li><a class="link" href="001$X000037.html#X000037" id="page_1">Text Heavy Page</a></li>
+</ul>
+</div>
+<div class="header-title">
+<h1 class="title">User guide title</h1>
+</div>
+</div>
+<div id="procedure-holder">
+<div id="X000037">
+    
+    
+    
+    
+    
+        <div class="section" id="section_lx1_1ky_cqb">
+            <div class="sectionTitle">
+<h2 class="section">section heading
+            </h2>
+</div>
+            <p>
+                Dolor sit amet, consectetur adipiscing elit. Nullam luctus congue consequat.
+                Vestibulum nibh sapien, fringilla at ullamcorper vel, porta sit amet ex. Etiam
+                congue finibus dolor quis venenatis. Donec condimentum ullamcorper porta. Pellentesque lacinia diam at
+                egestas
+                scelerisque. Nulla ac tortor mollis, finibus augue ac, varius tellus. Curabitur
+                volutpat placerat luctus. Praesent vel scelerisque lectus.
+            </p>
+        </div>
+        <div class="section" id="section_un4_rk3_2qb">
+            <p>
+                <b>sub-section heading</b>
+            </p>
+            <p>
+                lobortis diam convallis. Morbi pharetra nulla sed
+                eipit eget augue nec tempus. Etiam feugiat, ipsum
+                sit amet porttitor suscipit, metus
+            </p>
+            <p class="addressText">123 Address Text</p>
+            <p class="addressText">London</p>
+            <p class="addressText">UK</p>
+            <p class="addressText">AA1 1AA</p>
+            <p>Fusce condimentum enim lacus, in vulputate sapien
+                sodales et. Aliquam non lectus mauris. Proin
+                lobortis sem ut quam tincidunt, ultrices lobortis
+                diam convallis.
+            </p>
+        </div>
+        <div class="section" id="section_pkc_nly_cqb">
+            <div class="sectionTitle">
+<h2 class="section">TESTING TITLE
+            </h2>
+</div>
+            <div>
+<table class="note-table">
+<tbody>
+<tr>
+<td class="note-img-cell"><img class="caution-img" scaling="uniform" width="2em" height="2em" src="res_INEOS_USER_GUIDE\DefaultImages\Caution.png"></td>
+<td class="note-content-cell">
+<p class="caution">CAUTION: </p>
+                <p class="caution-content">All the random PDF files I tried manuals were there, but there’s a rather odd flash
+                    based
+                    captcha system to get to the download. You either have to rate the product by clicking on a
+                    star system to rate on “Ease of use”, “Reliability” etc, and leave a short opinion (can be
+                    random text), or click the “Security code” link and enter a 4 digit captcha where you have
+                    to remember the numbers as they flash on the screen!
+                </p>
+            </td>
+</tr>
+</tbody>
+</table>
+</div>
+            <div>
+<table class="note-table">
+<tbody>
+<tr>
+<td class="note-img-cell"><img class="caution-img" scaling="uniform" width="2em" height="2em" src="res_INEOS_USER_GUIDE\DefaultImages\Caution.png"></td>
+<td class="note-content-cell">
+<p class="caution">CAUTION: </p>
+                <div class="list">
+<ul>
+                    <div class="li"><!---->
+<div class="liNumber">&gt;</div>
+<div class="liBody">Do not tie electrical cables with Gear shift
+                        cables.
+                    </div>
+</div>
+                    <div class="li"><!---->
+<div class="liNumber">&gt;</div>
+<div class="liBody">Ensure that the engaging gears are properly
+                        assembled on shafts over respective circlip.
+                    </div>
+</div>
+                    <div class="li"><!---->
+<div class="liNumber">&gt;</div>
+<div class="liBody">Ensure that oil seals are free from dust
+                        particles and smear grease to dust leap.
+                    </div>
+</div>
+                    <div class="li"><!---->
+<div class="liNumber">&gt;</div>
+<div class="liBody">Use special tools for removal and fitment of
+                        gear box bearings.
+                    </div>
+</div>
+                    <div class="li"><!---->
+<div class="liNumber">&gt;</div>
+<div class="liBody">Ensure no damage done to reverse switch
+                        during handling.
+                    </div>
+</div>
+                </ul>
+</div>
+            </td>
+</tr>
+</tbody>
+</table>
+</div>
+        </div>
+        <div class="section" id="section_ofw_mmy_cqb">
+            <div class="sectionTitle">
+<h2 class="section">TESTING TITLE
+            </h2>
+</div>
+            <p>Aliquam ultricies ultricies porttitor. Cras finibus vitae quam nec sagittis.
+                Suspendisse um massa vitae maximus tempus. Cras a turpis pellentesque.
+                Aliquam ultricies ultricies porttitor. Cras finibus vitae quam nec sagittis.
+                Suspendisse Ahgdn um massa vitae maximus tempus. Cras a turpis pellentesque.
+            </p>
+            <div>
+<table class="note-table">
+<tbody>
+<tr>
+<td class="note-img-cell"><img class="note-img" scaling="uniform" width="2em" height="2em" src="res_INEOS_USER_GUIDE\DefaultImages\Information.png"></td>
+<td class="note-content-cell">
+<p class="Note">NOTE: </p>
+                <p class="Note-content">Sample Note Aliquam ultricies ultricies porttitor. Cras finibus vitae quam nec sagittis.
+                    Suspendisse Ahgdn um massa vitae maximus tempus.
+                </p>
+            </td>
+</tr>
+</tbody>
+</table>
+</div>
+            <div>
+<table class="note-table">
+<tbody>
+<tr>
+<td class="note-img-cell"><img class="caution-img" scaling="uniform" width="2em" height="2em" src="res_INEOS_USER_GUIDE\DefaultImages\Caution.png"></td>
+<td class="note-content-cell">
+<p class="caution">CAUTION: </p>
+                <p class="caution-content">Sample Caution Aliquam ultricies ultricies porttitor. Cras finibus vitae quam nec sagittis.
+                    Suspendisse Ahgdn um massa vitae maximus tempus.
+                </p>
+            </td>
+</tr>
+</tbody>
+</table>
+</div>
+            <div>
+<table class="note-table">
+<tbody>
+<tr>
+<td class="note-img-cell"><img class="warning-img" scaling="uniform" width="2em" height="2em" src="res_INEOS_USER_GUIDE\DefaultImages\Warning.png"></td>
+<td class="note-content-cell">
+<p class="warning">WARNING: </p>
+                <p class="warning-content">Sample Warning Aliquam ultricies ultricies porttitor. Cras finibus vitae quam nec sagittis.
+                    Suspendisse Ahgdn um massa vitae maximus tempus.
+                </p>
+            </td>
+</tr>
+</tbody>
+</table>
+</div>
+        </div>
+
+        
+        <div class="section">
+            <div class="sectionTitle">
+<h2 class="section">Table 1</h2>
+</div>
+            <div class="tableDiv">
+<table class="">
+                
+                <colgroup>
+<col style="width:33.333333333333336%;
+            ">
+<col style="width:33.333333333333336%;
+            ">
+<col style="width:33.333333333333336%;
+            ">
+</colgroup>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <thead>
+                        <tr>
+                            <th align="left" data-rowsep="" data-colsep="">
+                                <p>Title</p>
+                            </th>
+                            <th align="left" data-rowsep="" data-colsep="">
+                                <p>Heading 1</p>
+                            </th>
+                            <th align="left" data-rowsep="" data-colsep="">
+                                <p>Heading 2</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tableheader" data-rowsep="" data-colsep="">
+                                <p>Heading 3</p>
+                            </td>
+                            <td data-rowsep="" data-colsep="">
+                                <p>Value</p>
+                            </td>
+                            <td data-rowsep="" data-colsep="">
+                                <p>Value</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tableheader" data-rowsep="" data-colsep="">
+                                <p>Heading 4</p>
+                            </td>
+                            <td data-rowsep="" data-colsep="">
+                                <p>Value</p>
+                            </td>
+                            <td data-rowsep="" data-colsep="">
+                                <p>Value</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tableheader" data-rowsep="" data-colsep="">
+                                <p>Heading 5</p>
+                            </td>
+                            <td data-rowsep="" data-colsep="">
+                                <p>Value</p>
+                            </td>
+                            <td data-rowsep="" data-colsep="">
+                                <p>Value</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                
+            </table>
+<p></p>
+</div>
+
+            <div class="sectionTitle">
+<h2 class="section">Table 2</h2>
+</div>
+            <div class="tableDiv">
+<table class="" id="table_lj5_twy_cqb">
+                
+                <colgroup>
+<col style="width:25%;
+            ">
+<col style="width:25%;
+            ">
+<col style="width:25%;
+            ">
+<col style="width:25%;
+            ">
+</colgroup>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <thead>
+                        <tr>
+                            <th align="left" data-rowsep="" data-colsep="">15000</th>
+                            <th align="left" data-rowsep="" data-colsep="">15600</th>
+                            <th align="left" data-rowsep="" data-colsep="">15</th>
+                            <th align="left" data-rowsep="" data-colsep="">100</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-rowsep="" data-colsep="">1</td>
+                            <td data-rowsep="" data-colsep="">1</td>
+                            <td data-rowsep="" data-colsep="">1</td>
+                            <td data-rowsep="" data-colsep="">1</td>
+                        </tr>
+                        <tr>
+                            <td data-rowsep="" data-colsep="">2</td>
+                            <td data-rowsep="" data-colsep="">2</td>
+                            <td data-rowsep="" data-colsep="">2</td>
+                            <td data-rowsep="" data-colsep="">2</td>
+                        </tr>
+                        <tr>
+                            <td data-rowsep="" data-colsep="">3</td>
+                            <td data-rowsep="" data-colsep="">3</td>
+                            <td data-rowsep="" data-colsep="">3</td>
+                            <td data-rowsep="" data-colsep="">3</td>
+                        </tr>
+                        <tr>
+                            <td data-rowsep="" data-colsep="">4</td>
+                            <td data-rowsep="" data-colsep="">4</td>
+                            <td data-rowsep="" data-colsep="">4</td>
+                            <td data-rowsep="" data-colsep="">4</td>
+                        </tr>
+                        <tr>
+                            <td data-rowsep="" data-colsep="">5</td>
+                            <td data-rowsep="" data-colsep="">5</td>
+                            <td data-rowsep="" data-colsep="">5</td>
+                            <td data-rowsep="" data-colsep="">5</td>
+                        </tr>
+                        <tr>
+                            <td data-rowsep="" data-colsep="">6</td>
+                            <td data-rowsep="" data-colsep="">6</td>
+                            <td data-rowsep="" data-colsep="">6</td>
+                            <td data-rowsep="" data-colsep="">6</td>
+                        </tr>
+                        <tr>
+                            <td data-rowsep="" data-colsep="">7</td>
+                            <td data-rowsep="" data-colsep="">7</td>
+                            <td data-rowsep="" data-colsep="">7</td>
+                            <td data-rowsep="" data-colsep="">7</td>
+                        </tr>
+                        <tr>
+                            <td data-rowsep="" data-colsep="">8</td>
+                            <td data-rowsep="" data-colsep="">8</td>
+                            <td data-rowsep="" data-colsep="">8</td>
+                            <td data-rowsep="" data-colsep="">8</td>
+                        </tr>
+                        <tr>
+                            <td data-rowsep="" data-colsep="">9</td>
+                            <td data-rowsep="" data-colsep="">9</td>
+                            <td data-rowsep="" data-colsep="">9</td>
+                            <td data-rowsep="" data-colsep="">9</td>
+                        </tr>
+                        <tr>
+                            <td data-rowsep="" data-colsep="">10</td>
+                            <td data-rowsep="" data-colsep="">10</td>
+                            <td data-rowsep="" data-colsep="">10</td>
+                            <td data-rowsep="" data-colsep="">10</td>
+                        </tr>
+                        <tr>
+                            <td data-rowsep="" data-colsep="">11</td>
+                            <td data-rowsep="" data-colsep="">11</td>
+                            <td data-rowsep="" data-colsep="">11</td>
+                            <td data-rowsep="" data-colsep="">11</td>
+                        </tr>
+                        <tr>
+                            <td data-rowsep="" data-colsep="">12</td>
+                            <td data-rowsep="" data-colsep="">12</td>
+                            <td data-rowsep="" data-colsep="">12</td>
+                            <td data-rowsep="" data-colsep="">12</td>
+                        </tr>
+                    </tbody>
+                
+            </table>
+<p></p>
+</div>
+
+            <div class="sectionTitle">
+<h2 class="section">Table 3</h2>
+</div>
+            <div class="tableDiv">
+<table class="">
+                
+                <colgroup>
+<col style="width:50%;
+            ">
+<col style="width:50%;
+            ">
+</colgroup>
+                    
+                    
+                    
+                    
+                    <tbody>
+                        <tr>
+                            <td class="tableheader" data-rowsep="" data-colsep="">Heading 1</td>
+                            <td data-rowsep="" data-colsep="">Value</td>
+                        </tr>
+                        <tr>
+                            <td class="tableheader" data-rowsep="" data-colsep="">Heading 2</td>
+                            <td data-rowsep="" data-colsep="">Value</td>
+                        </tr>
+                    </tbody>
+                
+            </table>
+<p></p>
+</div>
+        </div>
+
+        
+        <div class="section" id="section_ixg_4my_cqb">
+            <div class="sectionTitle">
+<h2 class="section">TESTING TITLE
+            </h2>
+</div>
+            <div class="fig tableDiv" id="fig_z5g_pmy_cqb" data-title="FIGURE"><img id="image_wyj_xmd_2qb" src="001$1000005860am.png.png" style="border: 0.75pt solid black; display: block; margin-left: auto; margin-top: 20px; margin-right: auto; width: 90%;" width="" height=""></div>
+            <p>
+                Suspendisse efficitur iaculis eros, id rhoncus turpis egestas sit
+                amet. Nam at lacinia odio, ut malesuadm tempoibulum suscipit massa quis enim
+                <span><img data-title="Image" width="40" height="40" src="001$picture10007630am.png"></span>
+                pellentesque, vel accumsan ante consequat. Curabitur sit amet orci ac ante blandit
+                consectetur. Proin commodo volutpat nibh in lacinia. Culla ultricies molestie arcu,
+                non fermentum mauris laoreet in
+            </p>
+        </div>
+        <div class="section" id="section_ixg_4my_cqb">
+            <div class="sectionTitle">
+<h2 class="section">TESTING TITLE</h2>
+</div>
+            <p>
+                Suspendisse efficitur iaculis eros, id rhoncus turpis egestas sit
+                amet. Nam at lacinia odio, ut malesuadm tempoibulum suscipit massa quis enim
+                pellentesque, vel accumsan ante consequat.
+            </p>
+            <div class="list">
+<ol id="ol_em4_lty_cqb">
+                <div class="li"><!---->
+<div class="liNumber">1.</div>
+<div class="liBody">
+                    <p>Ordered list 1</p>
+                </div>
+</div>
+                <div class="li"><!---->
+<div class="liNumber">2.</div>
+<div class="liBody">
+                    <p>Ordered list 2</p>
+                </div>
+</div>
+                <div class="li"><!---->
+<div class="liNumber">3.</div>
+<div class="liBody">
+                    <p>Ordered list 3</p>
+                </div>
+</div>
+                <div class="li"><!---->
+<div class="liNumber">4.</div>
+<div class="liBody">
+                    <p>Ordered list 4</p>
+                </div>
+</div>
+            </ol>
+</div>
+        </div>
+
+        
+        <div class="section">
+            <p>Testing for footnote data this is footnote
+                <sup>1</sup>
+                footnote part 2 as well this is it
+                <sup>2</sup>
+            </p>
+        </div>
+    
+</div>
+</div>
+<div class="footnote-section">
+<hr class="footnote-line"><a class="footnote-link" href="#ref1" title="Jump back to ..."><sup class="footnote-superscript">1</sup><p class="footnote">
+                    Testing 1 Suspendisse efficitur iaculis eros, id rhoncus turpis egestas sit
+                        amet. Nam at lacinia odio, ut malesuadm tempoibulum suscipit massa quis enim
+                        pellentesque, vel accumsan ante consequat. Curabitur sit amet orci ac ante blandit
+                        consectetur. Proin commodo volutpat nibh in lacinia. Culla ultricies molestie arcu,
+                        non fermentum mauris laoreet in
+                    
+                </p></a><a class="footnote-link" href="#ref1" title="Jump back to ..."><sup class="footnote-superscript">2</sup><p class="footnote">
+                    Footnote 2
+                </p></a></div>
+<div id="footer">
+</div>
+</div>
+</div>
+<link href="res_INEOS_USER_GUIDE/cadit_support_2d.css" rel="stylesheet"><script type="text/javascript" src="res_INEOS_USER_GUIDE/cadit_support_2d.js"></script></body>
+</html>

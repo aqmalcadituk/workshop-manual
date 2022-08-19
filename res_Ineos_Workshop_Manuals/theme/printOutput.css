@@ -1,0 +1,195 @@
+:root {
+    --font-size: 11pt;
+}
+@page {
+    size: A4 portrait !important;
+    margin: 0 !important;
+}
+@media print {
+    .ScreenOnly, .image-2d, .pageDynamic {
+        display: none;
+    }
+    .PrintOnly {
+        display: block !important;
+    }
+    .PrintOutput {
+        width: auto !important;
+        counter-reset: Page;
+        padding: 0;
+        margin: 0;
+    }
+    .Page-Header {
+        border-bottom: 1px solid black;
+        size: portrait !important;
+        margin-bottom: 2mm;
+        display: flex;
+        height: 35mm;
+    }
+    .Page-Header > .Page-Logo {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img.HeaderLogo {
+        width: 80%;
+    }
+    .Page-Header > .Page-Detail {
+        width: 70%;
+    }
+    .Page-Header > .Page-Detail > div {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 0.2cm 0.5cm;
+        font-size:  var(--font-size) !important;
+    }
+    .Page-Header > .Page-Detail > div:nth-child(2) {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    .Page-Heading1 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size:  var(--font-size) !important;
+        padding: 0 0.5cm 0.1cm 0.4cm;
+        margin: 0 !important;
+        text-align: left;
+    }
+    .Page-Heading1-ar-SA {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: var(--font-size) !important;
+        padding: 0 0.4cm 0.1cm 0.4cm;
+        margin: 0 !important;
+        text-align: right !important;
+    }
+    .Page-Heading2 {
+        text-transform: uppercase;
+        font-size:  var(--font-size) !important;
+        padding: 0 0.5cm 0.1cm 0.4cm;
+        margin: 0 !important;
+        text-align: left;
+    }
+    .Page-Heading2-ar {
+        text-transform: uppercase;
+        font-size: var(--font-size) !important;
+        padding: 0 0.4cm 0.1cm 0.4cm;
+        margin: 0 !important;
+        text-align: right !important;
+    }
+    .Page-Footer {
+        border-top: 1px solid black;
+        justify-content: space-between;
+        text-transform: uppercase;
+        padding: 0.5cm 0.2cm;
+        margin-top: 2mm;
+        font-size:  var(--font-size) !important;
+        display: flex;
+    }
+    .Date, .Page {
+        font-size: var(--font-size)
+    }
+
+    .A4Width {
+        width: 100%;
+    }
+    
+    /*Print output part*/
+    table.print_table-content-3,
+    table.print_table-content-4 {
+        margin-bottom: 4mm;
+    }
+    table.print_table-content-3 > thead > tr > th,
+    table.print_table-content-3 > tbody > tr > td,
+    table.print_table-content-4 > thead > tr > th,
+    table.print_table-content-4 > tbody > tr > td {
+        border: 1px solid black;
+        padding: 2mm 4mm;
+        font-size:  var(--font-size) !important;
+    }
+    table.print_table-content-3 > thead > tr > th:last-child,
+    table.print_table-content-3 > tbody > tr > td:last-child,
+    table.print_table-content-4 > thead > tr > th:last-child,
+    table.print_table-content-4 > tbody > tr > td:last-child {
+        display: none;
+    }
+    table.print_table-content-3 > thead > tr > th,
+    table.print_table-content-3 > thead > tr > th {
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    /*end Print output part*/
+
+    /*Print output Document*/
+    table.print_ProcedureTable {
+        margin-bottom: 4mm;
+    }
+    table.print_ProcedureTable > thead {
+        display: none;
+    }
+    table.print_ProcedureTable > tbody > tr > td {
+        border: 1px solid black;
+    }
+    table.print_ProcedureTable > tbody > tr > td:first-child {
+        font-size: var(--font-size) !important;
+        padding: 2mm 4mm;
+    }
+    table.print_ProcedureTable > tbody > tr > td:first-child > div {
+        height: 100%;
+    }
+    table.print_ProcedureTable > tbody > tr > td:last-child {
+        font-size: var(--font-size) !important;
+        padding: 2mm 0;
+        text-align: justify !important;
+    }
+    table.print_ProcedureTable > tbody > tr > td:last-child > * {
+        padding: 0 2mm !important;
+    }
+    table.print_ProcedureTable > tbody > tr {
+        page-break-inside: avoid;
+    }
+    /*end Print output Document*/
+
+    .substeps-title, .substeps-content {
+        font-size:  var(--font-size) !important;
+    }
+
+    /* Size paper */
+    table.tablePage, table.pageDynamic {
+        height: 297mm;
+    }
+    #documentTable, div.PO-Content {
+        height: 241mm;
+        width: 210mm;
+    }
+
+    #canvas {
+        margin: 35mm 0mm;
+        padding: 1mm 2mm;
+        height: 170mm;
+        width: 210mm;
+    }
+    #canvas > * {
+        position: relative !important;
+    }
+    tr.stepSection > td {
+        border-top: none !important;
+        border-bottom: none !important;
+        padding: 0 2mm !important;
+        font-size:  var(--font-size) !important;
+    }
+}
+
+@media screen {
+    .ScreenOnly, .image-2d {
+        display: block !important;
+    }
+    .PrintOnly, .print2D {
+        display: none !important;
+    }
+    .PrintOutput {
+        display: none !important;
+    }
+}
+

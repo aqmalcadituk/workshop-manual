@@ -1,0 +1,565 @@
+#root {
+  text-align: center;
+  overflow: hidden;
+  background-color: white;
+}
+
+.MuiAppBar-root{
+  /*width: 100% !important;*/
+}
+
+.MuiToolbar-root{
+  height: 100px;
+}
+
+.MuiPaper-elevation4{
+  box-shadow: none !important;
+}
+
+.app {
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+/*#procedure-holder::-webkit-scrollbar {*/
+/*  display: none;*/
+/*}*/
+#procedure-holder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  padding: .5em;
+  top: 38px;
+  bottom: 0;
+}
+
+/*.cortona3dsolo-popover {*/
+/*  display: none;*/
+/*  z-index: 100;*/
+/*}*/
+
+/*.ready .cortona3dsolo-popover {*/
+/*  display: block;*/
+/*}*/
+
+.cortona3dsolo-svg {
+  width: 100% !important;
+  height: calc(100% - 134px) !important;
+}
+
+.tiramisu-proc-item {
+  font-family: 'Open Sans', Arial;
+  font-size: 12pt;
+  text-align: left;
+  color: black;
+  border-radius: 0 !important;
+  border: 0 !important;
+  /*padding-right: 15px;*/
+}
+
+.tiramisu-proc-item.selected {
+  border: 0;
+  /*padding-right: 15px;*/
+}
+
+.substeps .tiramisu-proc-item:hover {
+  border: 0 !important;
+  cursor: pointer !important;
+  /*padding-right: 15px;*/
+}
+
+
+.tiramisu-proc-title,h1[data-class="- topic/title "]{
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.tiramisu-proc-item-number,.tiramisu-proc-item-content,.Procedure{
+  text-align: left;
+  margin-left: 1em;
+  font-size: 14px;
+  cursor: pointer;
+  color: #00152C;
+  font-weight: normal;
+}
+
+.MuiDialog-paperWidthMd {
+  width: 500px;
+}
+
+.MuiButton-root {
+  font-weight: bold !important;
+  line-height: 1.25 !important;
+}
+
+img[data-class="- topic/image "]{
+  text-align: center !important;
+  display: block;
+  margin: 0 auto;
+}
+
+.stepexpand.selected {
+  background-color: #21608D;
+  border: 1px solid #21608D;
+}
+
+input.skin-control{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#TabHolder{
+  height: 30px;
+}
+
+.no-show{
+  visibility:hidden;
+  display:none
+}
+.no-display{
+  display:none !important;
+}
+
+/*tabs*/
+#divtabs {
+  height: 30px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+/*#divContainerRSR {*/
+/*  background-color: #F0F0F0;*/
+/*  color: black;*/
+/*}*/
+
+.tab {
+  cursor: pointer;
+}
+
+/*.tab:hover  {*/
+/*  background-color: #005849;*/
+/*  color: #FBD346;*/
+/*}*/
+
+/*.htab{*/
+/*  color: #FBD346;*/
+/*  background-color: #005849;*/
+/*}*/
+
+.htab, .tab {
+  font-size: 16px;
+  display: inline-block;
+  padding: 5px 13.1px 5px !important;
+}
+
+.tbtxt {
+  padding: 2px 0 0 !important;
+  display: inline-block;
+}
+
+#tab5, #tab1, #tab2,#tab3, #tab4{
+  margin-left: 4px;
+}
+
+/*header*/
+#headerDiv{
+  height:100%;
+  padding:5px;
+  font-size:13px;
+}
+
+#header{
+  height:30px;
+}
+
+#header label{
+  font-weight:bold;
+}
+
+#footer{
+  position:absolute;
+  bottom:0;
+  height:25px;
+  width:100%;
+  text-align:center;
+}
+
+#footer img{
+  height:50px;
+  width:auto;
+  margin-right:20px;
+  margin-top:5px;
+}
+
+#tabPreContent{
+  font-size: 16px;
+}
+
+.operatingDuration{
+  right: 10px;
+  position: absolute;
+}
+
+.procedureDuration{
+  position: fixed;
+  bottom: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #E4551F;
+  background-color: black;
+  z-index: 1;
+  text-align: right;
+  width: 590px;
+  padding: 0.5em 0;
+}
+
+.signOffText{
+  font-size: 14px;
+  color: #0C3C60;
+}
+
+.treePart, .treeSupply, .treeEquipment{
+  /*border: 1px solid gray;*/
+  font-size: 14px;
+  color: white !important;
+}
+
+.treePart thead, .treeSupply thead, .treeEquipment thead{
+  background-color: #00152C !important;
+  /*color: black;*/
+  pointer-events: none;
+}
+
+.treePart tbody,.treeSupply tbody, .treeEquipment tbody {
+  /*background-color: #f5f5f5;*/
+  /*color: #015452;*/
+  cursor: pointer;
+}
+
+pre{
+  font-family: 'Open Sans', Arial !important;
+  /*font-weight: bold;*/
+}
+
+td, th {
+  border: 1px solid #CCC4C4;
+}
+
+td{
+  height: 35px;
+}
+
+tr:hover {
+  /*background-color: #FFCD32;*/
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table_div{
+  padding: 15px;
+  pointer-events: none;
+}
+
+.table_div tbody {
+   background-color: #f5f5f5;
+   color: #015452;
+ }
+
+.table_div > .table thead > tr >th{
+  height: 40px;
+}
+
+.sectionTitle{
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 5px 0 5px 10px;
+}
+
+.section p{
+  text-align: left;
+  margin-left: 10px;
+}
+
+#currentTaskText, #currentTaskPartsText, #currentTaskSupplyText, #currentTaskEquipmentText{
+  /*background-color: #005849;*/
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  padding: 5px 0 5px 10px;
+  /*color: white;*/
+}
+
+#currentTask, #currentTaskParts, #currentTaskSupply, #currentTaskEquipment{
+  margin-bottom: 15px;
+}
+
+/*#currentTaskContent{*/
+/*  pointer-events: none;*/
+/*}*/
+
+.MuiFormLabel-root.Mui-focused {
+  color: black !important;
+}
+
+.MuiBox-root-33{
+  text-align: left;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid #0C3C60 !important;
+}
+
+.partHighlight, .clickpartHighlight{
+  background:#99bcce;
+  color: #00152C;
+}
+
+.divPart, .btnPM {
+  color: #FFFFFF;
+  background-color: #000000;
+  border-color: #0C3C60 !important;
+  font-size: 13px;
+  text-align: left;
+}
+
+.divPart {
+  border: 1px solid;
+  margin: 10px;
+  padding: 5px 20px;
+}
+
+.divPartRow{
+  color: black !important;
+}
+
+.RowGrey{
+  background-color: #8B8B8B;
+}
+
+.divEquipListItem{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 0 15px 15px;
+}
+.outillages{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0 10px 15px;
+}
+
+#logo_brand {
+  width: 50%;
+  height: auto;
+  vertical-align: middle;
+  padding: 5px 5px 5px 5px;
+}
+
+#copyright_text .sectionTitle{
+  display: none;
+}
+
+.labeltext, .valuetext{
+  display: inline;
+  font-size: 14px;
+}
+
+.labeltext{
+  color: #0C3C60;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.valuetext{
+  color: #0C3C60;
+}
+
+#other_metadata{
+  padding: 2px 10px 0 10px;
+  text-align: left;
+
+}
+
+#metadata_container{
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+
+}
+
+@media screen {
+  .caution, .warning, .danger, .note{
+    font-family: 'Open Sans', Arial;
+    /*border-top: 10px solid #bad0db;*/
+    border-bottom: 5px solid #bad0db;
+    padding: 0px !important;
+  }
+}
+@media print {
+  .caution, .warning, .danger, .note{
+    font-family: 'Open Sans', Arial;
+    /*border-top: 1px solid black;*/
+    border-bottom: 1px solid black;
+    padding: 0px !important;
+  }
+  table.print_ProcedureTable > tbody > tr > td:last-child > * {
+      padding: 0 2mm !important;
+  }
+}
+
+.steps > .tiramisu-proc-item > .tiramisu-proc-item-content > div > .caution, .steps > .tiramisu-proc-item > .tiramisu-proc-item-content > div > .warning,.steps > .tiramisu-proc-item > .tiramisu-proc-item-content > div > .danger,.steps > .tiramisu-proc-item > .tiramisu-proc-item-content > div > .note{
+  border-top: 10px solid #bad0db !important;
+}
+
+.cautionHeading, .noteHeading, .warningHeading{
+  text-align: left;
+  font-weight: 800;
+  padding: 5px 0;
+  display: flex;
+  color: black !important;
+}
+
+.warningHeading{
+  /*border: 2px solid red;*/
+  text-align: left;
+  font-weight: 800;
+  padding: 5px 0;
+  display: flex;
+}
+
+.warningMessage, .cautionMessage{
+  text-align: left;
+  font-weight: 800;
+  margin: auto;
+  width: 100%;
+  color: black;
+}
+
+.noteMessage{
+  text-align: left;
+  font-weight: normal;
+  margin: auto;
+  width: 100%;
+  color: black;
+  font-style: italic;
+}
+
+.segment.segment_Text_1 > div{
+  justify-content: center;
+}
+
+#part_no{
+  white-space: pre-wrap;
+}
+
+/*.segment.segment_Text_3 > div > p:first-child {*/
+/*  margin-top: auto;*/
+/*  margin-bottom: auto;*/
+/*}*/
+
+li{
+  text-align: left;
+  padding: 2px 0;
+}
+
+.table thead{
+  background-color: transparent;
+  color: black;
+  pointer-events: none;
+}
+
+.HeaderLabelText {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.HeaderLabelLargeText {
+  font-size: 16px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.HeaderTitleText {
+  font-size: 14px;
+  vertical-align: middle;
+  bottom: 0;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.treePart > thead > tr > td{
+  /*border-bottom: 5px solid #F0F5FA !important;*/
+  /*border-right: 5px solid #F0F5FA !important;*/
+  /*border-left: 5px solid #F0F5FA;*/
+  /*border-top: 5px solid #F0F5FA; */
+  border-bottom: 5px solid #bad0db !important;
+  border-right: 5px solid #bad0db !important;
+  border-left: 5px solid #bad0db;
+  border-top: 5px solid #bad0db;
+  background: #00152C !important;
+}
+
+.treePart > tbody > tr > td{
+  /*border-bottom: 5px solid #F0F5FA !important;*/
+  /*border-right: 5px solid #F0F5FA !important;*/
+  /*border-left: 5px solid #F0F5FA;  */
+  border-bottom: 5px solid #bad0db !important;
+  border-right: 5px solid #bad0db !important;
+  border-left: 5px solid #bad0db;
+}
+
+
+
+#divContainerBOM, #divContainerSupply{
+  padding: 0 0 12px;
+  color: white;
+}
+.treePart > thead > tr > td > pre{
+  margin: 5px 0px !important;
+}
+
+.alertIcon{
+  width : 30px;
+  height : 30px;
+  margin: 10px 20px;
+}
+
+.heading{
+  text-transform: uppercase;
+}
+
+.torque-step{
+  color: #b61615 !important;
+  font-weight: bold !important;
+  display: contents !important;
+}
+
+.stepSelected > .tiramisu-proc-item-content > div > .torque-step{
+  /*color: white !important;*/
+  font-weight: bold !important;
+  display: contents !important;
+}
+
+.doc-item{
+  color: #00152C !important;
+  font-weight: bold !important;
+}
+
+.treePart tbody{
+  color: black !important;
+}
+
+.treePart > tbody > tr > td:nth-child(1):empty::before {content: "Local Supply"}
+.treePart > tbody > tr > td:nth-child(3):empty::before {content: "Refer to the MSDS."}

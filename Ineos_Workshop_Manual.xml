@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE task PUBLIC "-//INEOS//DTD DITA Task//EN" "task.dtd"><task id="step2571c40878f6d97e49ea99d57285f67b" outputclass="WM">
+<title>Pump Assembly</title>
+<prolog>
+<metadata>
+<data name="VRML">
+<object classid="CLSID:86A88967-7A20-11D2-8EDA-00600818EDB1" type="application/x-cortona" data="Ineos_Workshop_Manual.wrlzip" id="object_Ineos_Workshop_Manual_wrl">
+<param name="wrlName" value="Ineos_Workshop_Manual" />
+<desc>Pump Assembly</desc>
+<param name="type" value="procedure">
+</param>
+<param id="par-part_id02" value="id02" name="part:PM005301"><?item_indent 0?></param>
+<param id="par-part_id01" value="id01" name="part:DP00356 (1)"><?item_indent 1?><?item_parent id02?></param>
+<param id="par-part_id11" value="id11" name="part:PM005330 (1)"><?item_indent 1?><?item_parent id02?></param>
+<param id="par-part_id06" value="id06" name="part:BLT000324 (1)"><?item_indent 1?><?item_parent id02?></param>
+<param id="par-part_id07" value="id07" name="part:PM005302"><?item_indent 1?><?item_parent id02?></param>
+<param id="par-part_id03" value="id03" name="part:PM005303"><?item_indent 1?><?item_parent id02?></param>
+<param id="par-part_PM005305" value="PM005305" name="part:PM005305"><?item_indent 2?><?item_parent id03?></param>
+<param id="par-part_id05" value="id05" name="part:PM005310"><?item_indent 2?><?item_parent id03?></param>
+<param id="par-part_BLT000350__1_" value="BLT000350__1_" name="part:BLT000350 (1)"><?item_indent 0?></param>
+<param id="par-part__BLT000350" value="_BLT000350" name="part:BLT000350 (2)"><?item_indent 0?></param>
+<param id="par-part_BLT000350__5_" value="BLT000350__5_" name="part:BLT000350 (5)"><?item_indent 0?></param>
+<param id="par-part_BLT000350__7_" value="BLT000350__7_" name="part:BLT000350 (7)"><?item_indent 0?></param>
+<param id="par-part_BLT000350__8_" value="BLT000350__8_" name="part:BLT000350 (8)"><?item_indent 0?></param>
+<param id="par-part_PM005340__1_" value="PM005340__1_" name="part:PM005340 (1)"><?item_indent 0?></param>
+<param id="par-part_PM005340__2_" value="PM005340__2_" name="part:PM005340 (2)"><?item_indent 0?></param>
+<param id="par-part__PM005345" value="_PM005345" name="part:PM005345 (1)"><?item_indent 0?></param>
+<param id="par-part_PM005345__2_" value="PM005345__2_" name="part:PM005345 (2)"><?item_indent 0?></param>
+<param id="par-part_id04" value="id04" name="part:PPM005350"><?item_indent 0?></param>
+<param id="par-part_PM005600" value="PM005600" name="part:PM005600"><?item_indent 0?></param>
+<param id="par-part_id12" value="id12" name="part:BLT000324 (9)"><?item_indent 1?><?item_parent PM005600?></param>
+<param id="par-part_id13" value="id13" name="part:PM005330 (2)"><?item_indent 1?><?item_parent PM005600?></param>
+<param id="par-part_id09" value="id09" name="part:DP00356 (3)"><?item_indent 1?><?item_parent PM005600?></param>
+<param id="par-part_id14" value="id14" name="part:PM005400"><?item_indent 1?><?item_parent PM005600?></param>
+<param id="par-part__PM005410" value="_PM005410" name="part:PM005410"><?item_indent 2?><?item_parent id14?></param>
+<param id="par-part__PM005450" value="_PM005450" name="part:PM005450"><?item_indent 2?><?item_parent id14?></param>
+<param id="par-part__PM005460" value="_PM005460" name="part:PM005460"><?item_indent 2?><?item_parent id14?></param>
+<param id="par-part__PM005470" value="_PM005470" name="part:PM005470"><?item_indent 2?><?item_parent id14?></param>
+<param id="par-part__NT3456" value="_NT3456" name="part:NT3456"><?item_indent 2?><?item_parent id14?></param>
+<param id="par-part__PM005480" value="_PM005480" name="part:PM005480"><?item_indent 2?><?item_parent id14?></param>
+<param id="par-part__NT4850" value="_NT4850" name="part:NT4850"><?item_indent 2?><?item_parent id14?></param>
+<param id="par-part__BLT005532" value="_BLT005532" name="part:BLT005532"><?item_indent 2?><?item_parent id14?></param>
+<param id="par-part__PM5490" value="_PM5490" name="part:PM5490"><?item_indent 2?><?item_parent id14?></param>
+<param id="par-part__BLT003345" value="_BLT003345" name="part:BLT003345"><?item_indent 2?><?item_parent id14?></param>
+<param id="par-part__PM005420" value="_PM005420" name="part:PM005420 (1)"><?item_indent 2?><?item_parent id14?></param>
+<param id="par-part__PM005430" value="_PM005430" name="part:PM005430"><?item_indent 2?><?item_parent id14?></param>
+<param id="par-part__PM005501" value="_PM005501" name="part:PM005501"><?item_indent 0?></param>
+<param id="par-part_id15" value="id15" name="part:SH40120"><?item_indent 1?><?item_parent _PM005501?></param>
+<param id="par-part_id16" value="id16" name="part:SH40400"><?item_indent 1?><?item_parent _PM005501?></param>
+<param id="par-part_id17" value="id17" name="part:PM005520"><?item_indent 1?><?item_parent _PM005501?></param>
+<param id="par-part_id18" value="id18" name="part:PM005510 (1)"><?item_indent 1?><?item_parent _PM005501?></param>
+<param id="par-part_id19" value="id19" name="part:PM005530 (1)"><?item_indent 1?><?item_parent _PM005501?></param>
+<param id="par-part_id20" value="id20" name="part:SH40040"><?item_indent 1?><?item_parent _PM005501?></param>
+<param id="par-part_id21" value="id21" name="part:SH40140 (1)"><?item_indent 1?><?item_parent _PM005501?></param>
+<param id="par-part__PM005500" value="_PM005500" name="part:PM005500"><?item_indent 0?></param>
+<param id="par-part_id23" value="id23" name="part:SH40500"><?item_indent 1?><?item_parent _PM005500?></param>
+<param id="par-part_id22" value="id22" name="part:SH40020"><?item_indent 1?><?item_parent _PM005500?></param>
+<param id="par-part_id25" value="id25" name="part:PM005510 (2)"><?item_indent 1?><?item_parent _PM005500?></param>
+<param id="par-part_id24" value="id24" name="part:PM005530 (2)"><?item_indent 1?><?item_parent _PM005500?></param>
+<param id="par-part_id26" value="id26" name="part:SH40140 (2)"><?item_indent 1?><?item_parent _PM005500?></param>
+<param id="par-part_id08" value="id08" name="part:Torque_Wrench"><?item_indent 0?></param>
+<param id="par-part_PanelGloves" value="PanelGloves" name="part:PanelGloves"><?item_indent 0?></param>
+<param id="par-part_PanelBoots" value="PanelBoots" name="part:PanelBoots"><?item_indent 0?></param>
+<param id="par-step_S82F3C367-42A5-4573-B31D-08867DA11651" value="S82F3C367-42A5-4573-B31D-08867DA11651" name="step:S_001" />
+<param id="par-step_S7D06B9E5-8099-4667-9993-0094BE709C3B" value="S7D06B9E5-8099-4667-9993-0094BE709C3B" name="step:S_002" />
+<param id="par-step_SF3CC9F58-FD2F-4395-9EAD-0B766C4D57D2" value="SF3CC9F58-FD2F-4395-9EAD-0B766C4D57D2" name="step:S_003" />
+<param id="par-step_SD1EFB16D-2D50-4C47-8B1E-478757288BB4" value="SD1EFB16D-2D50-4C47-8B1E-478757288BB4" name="step:S_004" />
+<param id="par-step_S0D98D61C-1D41-469F-B677-F0265BBD0196" value="S0D98D61C-1D41-469F-B677-F0265BBD0196" name="step:S_005" />
+<param id="par-step_S700628C1-EF9C-45B2-8F49-8CEDEDEC8C04" value="S700628C1-EF9C-45B2-8F49-8CEDEDEC8C04" name="step:S_006" />
+<param id="par-step_S768F7996-7EFB-4548-AE3A-3548F00068EF" value="S768F7996-7EFB-4548-AE3A-3548F00068EF" name="step:S_007" />
+<param id="par-step_S28F6D2D3-5FAD-43A0-8C81-485699EC8BDD" value="S28F6D2D3-5FAD-43A0-8C81-485699EC8BDD" name="step:S_008" />
+<param id="par-step_S4B1FE763-DAF7-409E-A3DF-661A98A7BCF9" value="S4B1FE763-DAF7-409E-A3DF-661A98A7BCF9" name="step:S_009" />
+<param id="par-step_S75B3234B-3E12-4FB8-BFA4-D049BA7CD251" value="S75B3234B-3E12-4FB8-BFA4-D049BA7CD251" name="step:S_010" />
+<param id="par-step_S549E7F10-0749-4072-8376-449DFEF07B2C" value="S549E7F10-0749-4072-8376-449DFEF07B2C" name="step:S_011" />
+<param id="par-step_SA59CDF79-53D5-436F-8586-D90A785C7786" value="SA59CDF79-53D5-436F-8586-D90A785C7786" name="step:S_012" />
+<param id="par-step_S8E9B7BFC-E8DE-407B-9579-4F2BC5976CD7" value="S8E9B7BFC-E8DE-407B-9579-4F2BC5976CD7" name="step:S_013" />
+<param id="par-step_S0629558C-8ABF-41EC-8B94-B93D482FC868" value="S0629558C-8ABF-41EC-8B94-B93D482FC868" name="step:S_014" />
+<param id="par-step_SF0F50020-FE9E-4DB1-BAA0-C5691277F68A" value="SF0F50020-FE9E-4DB1-BAA0-C5691277F68A" name="step:S_015" />
+<param id="par-step_step_01" value="step_01" name="step:S_016" />
+<param id="par-step_r41576ce4-45b9-4040-9372-9ee0f8f26b2d" value="r41576ce4-45b9-4040-9372-9ee0f8f26b2d" name="step:S_017" />
+<param id="par-step_r15b9f09b-cb7d-444d-8369-49ca098ce7eb" value="r15b9f09b-cb7d-444d-8369-49ca098ce7eb" name="step:S_018" />
+<param id="par-step_re48d5b46-1669-4e27-96cd-e02dde576b88" value="re48d5b46-1669-4e27-96cd-e02dde576b88" name="step:S_019" />
+<param id="par-step_S3EFF6C8F-7D63-454E-A5D5-6DEC2477E47C" value="S3EFF6C8F-7D63-454E-A5D5-6DEC2477E47C" name="step:S_020" />
+<param id="par-step_SF8938E5D-F6CA-4BCE-B338-83629A0CDC07" value="SF8938E5D-F6CA-4BCE-B338-83629A0CDC07" name="step:S_021" />
+<param id="par-step_SA5FC6D3A-6FF0-452B-BC26-95179F768945" value="SA5FC6D3A-6FF0-452B-BC26-95179F768945" name="step:S_022" />
+<param id="par-step_SF3EAB55B-4034-40BB-800D-5EBF7F755E7C" value="SF3EAB55B-4034-40BB-800D-5EBF7F755E7C" name="step:S_023" />
+<param id="par-step_SAA67CFCB-95DE-418F-8134-817D568257CF" value="SAA67CFCB-95DE-418F-8134-817D568257CF" name="step:S_024" />
+</object>
+<image outputclass="3D" id="image_Ineos_Workshop_Manual_wrl" href="Ineos_Workshop_Manual.wrlzip" />
+</data>
+<data value="TOPIC__6D780720EFE34F0BA8A1F554406D48E9" name="repository-topic">
+</data>
+<data name="Section">1 Engine</data>
+<data name="PartNumber">dgfgf</data>
+<data name="Operation">Remove and install new part</data>
+<data name="Model">Grenadier</data>
+<data name="ModelYear">22MY&gt;</data>
+<data name="Engine">Straight Six</data>
+<data name="Transmission">Automatic</data>
+<data name="LDHRHD">RHD</data>
+<data name="Body">SWB</data>
+<data name="Region">UK</data>
+<data name="vinTo">fggfgfgfgdf</data>
+<data name="vinFrom">dgdf</data>
+</metadata>
+<change-historylist>
+<change-item>
+<change-completed>17/03/2022</change-completed>
+<change-summary>Created</change-summary>
+</change-item>
+<change-item>
+<change-completed>17/03/2022</change-completed>
+<change-summary>Revision 2</change-summary>
+</change-item>
+</change-historylist>
+</prolog>
+<taskbody>
+<prelreqs>
+<supequip>
+<supeqli>
+<supequi id="SST-1" outputclass="3D">
+<data name="PartNumber">BLT000350</data>
+<data name="Description">Bolt</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_BLT000350__7_">BLT000350__7_</xref>
+</data>
+</supequi>
+<supequi id="SST-2" outputclass="3D">
+<data name="PartNumber">BLT000350</data>
+<data name="Description">Bolt</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_BLT000350__8_">BLT000350__8_</xref>
+</data>
+</supequi>
+<supequi id="SST-3" outputclass="3D">
+<data name="PartNumber">PM005340</data>
+<data name="Description">Flange, Straight</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_PM005340__1_">PM005340__1_</xref>
+</data>
+</supequi>
+<supequi id="SST-4" outputclass="3D">
+<data name="PartNumber">Tool</data>
+<data name="Description">Torque Wrench</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id08">id08</xref>
+</data>
+</supequi>
+<supequi id="SST-5" outputclass="3D">
+<data name="PartNumber">dfdf</data>
+<data name="Description">Pan gloves</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_PanelGloves">PanelGloves</xref>
+</data>
+</supequi>
+<supequi id="SST-6" outputclass="3D">
+<data name="PartNumber">ddffds</data>
+<data name="Description">fsd</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_PanelBoots">PanelBoots</xref>
+</data>
+</supequi>
+</supeqli>
+</supequip>
+<supplies>
+<supplyli>
+<supply id="SUPPLY-1" outputclass="3D">
+<data name="PartNumber">PM005310</data>
+<data name="Description">Zerk Fitting</data>
+<data name="Specification">1233444</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id05">id05</xref>
+</data>
+</supply>
+<supply id="SUPPLY-2" outputclass="3D">
+<data name="PartNumber">BLT000350</data>
+<data name="Description">Bolt</data>
+<data name="Specification"></data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_BLT000350__5_">BLT000350__5_</xref>
+</data>
+</supply>
+<supply id="SUPPLY-3" outputclass="3D">
+<data name="PartNumber">PM005345</data>
+<data name="Description">Gasket, Flange</data>
+<data name="Specification">sdffds</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_PM005345__2_">PM005345__2_</xref>
+</data>
+</supply>
+<supply id="SUPPLY-4" outputclass="3D">
+<data name="PartNumber">PM005600</data>
+<data name="Description">Face Plate Assy</data>
+<data name="Specification">32323424</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_PM005600">PM005600</xref>
+</data>
+</supply>
+<supply id="SUPPLY-5" outputclass="3D">
+<data name="PartNumber">PM005400</data>
+<data name="Description">Face Plate Assembly, Relief Valve</data>
+<data name="Specification"></data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id14">id14</xref>
+</data>
+</supply>
+<supply id="SUPPLY-6" outputclass="3D">
+<data name="PartNumber">PM005480</data>
+<data name="Description">Plug Cap</data>
+<data name="Specification"></data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__PM005480">_PM005480</xref>
+</data>
+</supply>
+</supplyli>
+</supplies>
+<spares>
+<sparesli>
+<spare id="PART-1" outputclass="3D">
+<data name="PartNumber">DP00356</data>
+<data name="Description">Dowel Pin</data>
+<data name="Quantity">2</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id01">id01</xref>
+</data>
+</spare>
+<spare id="PART-2" outputclass="3D">
+<data name="PartNumber">PM005330</data>
+<data name="Description">Gasket, Case</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id11">id11</xref>
+</data>
+</spare>
+<spare id="PART-3" outputclass="3D">
+<data name="PartNumber">BLT000324</data>
+<data name="Description">Bolt</data>
+<data name="Quantity">8</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id06">id06</xref>
+</data>
+</spare>
+<spare id="PART-4" outputclass="3D">
+<data name="PartNumber">PM005302</data>
+<data name="Description">Retaining ring</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id07">id07</xref>
+</data>
+</spare>
+<spare id="PART-5" outputclass="3D">
+<data name="PartNumber">PM005305</data>
+<data name="Description">Ball Bearing</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_PM005305">PM005305</xref>
+</data>
+</spare>
+<spare id="PART-6" outputclass="3D">
+<data name="PartNumber">BLT000350</data>
+<data name="Description">Bolt</data>
+<data name="Quantity">4</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__BLT000350">_BLT000350</xref>
+</data>
+</spare>
+<spare id="PART-7" outputclass="3D">
+<data name="PartNumber">PM005340</data>
+<data name="Description">Flange, Straight</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_PM005340__2_">PM005340__2_</xref>
+</data>
+</spare>
+<spare id="PART-8" outputclass="3D">
+<data name="PartNumber">PM005345</data>
+<data name="Description">Gasket, Flange</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__PM005345">_PM005345</xref>
+</data>
+</spare>
+<spare id="PART-9" outputclass="3D">
+<data name="PartNumber">PM005350</data>
+<data name="Description">Casing</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id04">id04</xref>
+</data>
+</spare>
+<spare id="PART-10" outputclass="3D">
+<data name="PartNumber">BLT000324</data>
+<data name="Description">Bolt</data>
+<data name="Quantity">6</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id12">id12</xref>
+</data>
+</spare>
+<spare id="PART-11" outputclass="3D">
+<data name="PartNumber">PM005330</data>
+<data name="Description">Gasket, Case</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id13">id13</xref>
+</data>
+</spare>
+<spare id="PART-12" outputclass="3D">
+<data name="PartNumber">DP00356</data>
+<data name="Description">Dowel Pin</data>
+<data name="Quantity">2</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id09">id09</xref>
+</data>
+</spare>
+<spare id="PART-13" outputclass="3D">
+<data name="PartNumber">PM005410</data>
+<data name="Description">Face Plate</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__PM005410">_PM005410</xref>
+</data>
+</spare>
+<spare id="PART-14" outputclass="3D">
+<data name="PartNumber">PM005450</data>
+<data name="Description">Poppet and Spring</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__PM005450">_PM005450</xref>
+</data>
+</spare>
+<spare id="PART-15" outputclass="3D">
+<data name="PartNumber">PM005460</data>
+<data name="Description">Spring, Standard</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__PM005460">_PM005460</xref>
+</data>
+</spare>
+<spare id="PART-16" outputclass="3D">
+<data name="PartNumber">PM005470</data>
+<data name="Description">O-Ring, Buna</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__PM005470">_PM005470</xref>
+</data>
+</spare>
+<spare id="PART-17" outputclass="3D">
+<data name="PartNumber">NT3456</data>
+<data name="Description">Nut</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__NT3456">_NT3456</xref>
+</data>
+</spare>
+<spare id="PART-18" outputclass="3D">
+<data name="PartNumber">NT4850</data>
+<data name="Description">Nut, Lock and Seal</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__NT4850">_NT4850</xref>
+</data>
+</spare>
+<spare id="PART-19" outputclass="3D">
+<data name="PartNumber">BLT005532</data>
+<data name="Description">Screw, Adjustment</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__BLT005532">_BLT005532</xref>
+</data>
+</spare>
+<spare id="PART-20" outputclass="3D">
+<data name="PartNumber">PM5490</data>
+<data name="Description">Spring, High Pressure</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__PM5490">_PM5490</xref>
+</data>
+</spare>
+<spare id="PART-21" outputclass="3D">
+<data name="PartNumber">BLT003345</data>
+<data name="Description">Bolt, Hex Head</data>
+<data name="Quantity">2</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__BLT003345">_BLT003345</xref>
+</data>
+</spare>
+<spare id="PART-22" outputclass="3D">
+<data name="PartNumber">PM005420</data>
+<data name="Description">Drive Screw</data>
+<data name="Quantity">2</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__PM005420">_PM005420</xref>
+</data>
+</spare>
+<spare id="PART-23" outputclass="3D">
+<data name="PartNumber">PM005430</data>
+<data name="Description">Name Plate</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__PM005430">_PM005430</xref>
+</data>
+</spare>
+<spare id="PART-24" outputclass="3D">
+<data name="PartNumber">PM005501</data>
+<data name="Description">Drive Shaft Assy</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__PM005501">_PM005501</xref>
+</data>
+</spare>
+<spare id="PART-25" outputclass="3D">
+<data name="PartNumber">SH40120</data>
+<data name="Description">Shaft, Drive</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id15">id15</xref>
+</data>
+</spare>
+<spare id="PART-26" outputclass="3D">
+<data name="PartNumber">SH40400</data>
+<data name="Description">Gear, Left Hand</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id16">id16</xref>
+</data>
+</spare>
+<spare id="PART-27" outputclass="3D">
+<data name="PartNumber">PM005520</data>
+<data name="Description">Bushing, Short</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id17">id17</xref>
+</data>
+</spare>
+<spare id="PART-28" outputclass="3D">
+<data name="PartNumber">PM005510</data>
+<data name="Description">Bushing, Long</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id18">id18</xref>
+</data>
+</spare>
+<spare id="PART-29" outputclass="3D">
+<data name="PartNumber">PM005530</data>
+<data name="Description">Washer, Expansion</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id19">id19</xref>
+</data>
+</spare>
+<spare id="PART-30" outputclass="3D">
+<data name="PartNumber">SH40040</data>
+<data name="Description">Key</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id20">id20</xref>
+</data>
+</spare>
+<spare id="PART-31" outputclass="3D">
+<data name="PartNumber">SH40140</data>
+<data name="Description">Key</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id21">id21</xref>
+</data>
+</spare>
+<spare id="PART-32" outputclass="3D">
+<data name="PartNumber">PM005500</data>
+<data name="Description">Idler Shaft Assy</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part__PM005500">_PM005500</xref>
+</data>
+</spare>
+<spare id="PART-33" outputclass="3D">
+<data name="PartNumber">SH40500</data>
+<data name="Description">Gear, Right Hand</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id23">id23</xref>
+</data>
+</spare>
+<spare id="PART-34" outputclass="3D">
+<data name="PartNumber">SH40020</data>
+<data name="Description">Shaft, Idler</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id22">id22</xref>
+</data>
+</spare>
+<spare id="PART-35" outputclass="3D">
+<data name="PartNumber">PM005510</data>
+<data name="Description">Bushing, Long</data>
+<data name="Quantity">2</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id25">id25</xref>
+</data>
+</spare>
+<spare id="PART-36" outputclass="3D">
+<data name="PartNumber">PM005530</data>
+<data name="Description">Washer, Expansion</data>
+<data name="Quantity">2</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id24">id24</xref>
+</data>
+</spare>
+<spare id="PART-37" outputclass="3D">
+<data name="PartNumber">SH40140</data>
+<data name="Description">Key</data>
+<data name="Quantity">1</data>
+<data name="illustration">
+<xref outputclass="3DPartLink" href="#step2571c40878f6d97e49ea99d57285f67b/par-part_id26">id26</xref>
+</data>
+</spare>
+</sparesli>
+</spares>
+</prelreqs>
+<steps>
+<step id="S82F3C367-42A5-4573-B31D-08867DA11651">
+<note type="warning" id="_E8A8BEB0A1944A71B076C23D9568ECCD">
+<p>
+<?xm-replace_text Type new paragraph here ?>
+</p>
+</note>
+<cmd class="- topic/ph task/cmd ">Test 1 <xref keyref="r46fee07a-7cd5-4ca0-a512-5c21b8798687" outputclass="include" href="r46fee07a-7cd5-4ca0-a512-5c21b8798687">
+</xref>
+<xref href="#step2571c40878f6d97e49ea99d57285f67b/PART-38" outputclass="partsListRef">Test1</xref>. hahahaha</cmd>
+<info>
+<note id="_C4C078F6FFB844C881C23E881D00A559">
+<p>
+<?xm-replace_text Type new paragraph here ?>
+</p>
+</note>
+<image id="img-003" href="fig01-1.jpg" alt="fig01-1" placement="break">
+</image>
+</info>
+<info outputclass="timing">
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C10" value="C10" conref="">
+<data name="description">C3 is about X</data>
+<data name="time">0.6</data>
+</data>
+<data name="qty">3</data>
+<data name="assisted">1</data>
+</data-about>
+</info>
+</step>
+<step id="S7D06B9E5-8099-4667-9993-0094BE709C3B" class="- topic/li task/step " audience="Burkina_Faso" platform="LWB_SW-UV">
+<note type="warning" id="_EC3CC962C7EC4C71B6A97CB4AF1C8E2B">
+<p>
+<?xm-replace_text Type new paragraph here ?>
+</p>
+</note>
+<cmd class="- topic/ph task/cmd ">Test 2 </cmd>
+<info outputclass="timing">
+<data-about>
+<data name="dbaCode" conref="" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C2" value="C2">
+<data name="description">C2 is about X</data>
+<data name="time">0.2</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+<data-about>
+<data name="dbaCode" conref="" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C4" value="C4">
+<data name="description">C4 does Z</data>
+<data name="time">0.1</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+</info>
+</step>
+<step id="SF3CC9F58-FD2F-4395-9EAD-0B766C4D57D2" class="- topic/li task/step ">
+<cmd>Test 3</cmd>
+<info>
+<note>
+</note>
+</info>
+<info outputclass="timing">
+<data-about>
+<data name="dbaCode" conref="" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/tfu" value="tfu">
+<data name="description">C3 does Y</data>
+<data name="time">0.7</data>
+</data>
+<data name="qty">3</data>
+<data name="assisted">1</data>
+</data-about>
+<data-about>
+<data name="dbaCode" conref="" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/tfu2" value="tfu2">
+<data name="description">tfu2 does Y</data>
+<data name="time">0.8</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+</info>
+</step>
+<step id="SD1EFB16D-2D50-4C47-8B1E-478757288BB4">
+<cmd>Test 4 
+				hahaha <xref outputclass="include" href="r46fee07a-7cd5-4ca0-a512-5c21b8798687" props="keep(true)" xml:lang="en">Test</xref>
+</cmd>
+</step>
+<step id="S0D98D61C-1D41-469F-B677-F0265BBD0196">
+<cmd physProperty="pressure-nm">Test5 </cmd>
+<info outputclass="timing">
+<data-about>
+<data name="dbaCode" conref="" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C10" value="C10">
+<data name="description">C3 is about X</data>
+<data name="time">0.6</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+</info>
+</step>
+<step id="S700628C1-EF9C-45B2-8F49-8CEDEDEC8C04">
+<cmd>Test</cmd>
+<info outputclass="timing">
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C10" value="C10" conref="">
+<data name="description">C3 is about X</data>
+<data name="time">0.6</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+</info>
+</step>
+<step id="S768F7996-7EFB-4548-AE3A-3548F00068EF">
+<note type="warning" id="_207A0A0ABF6B4737A00255FDF98167C4">
+<p>Warning 1</p>
+</note>
+<cmd>Test 5</cmd>
+</step>
+<step id="S28F6D2D3-5FAD-43A0-8C81-485699EC8BDD" audience="Norway" platform="dffds">
+<cmd>Test 6 <xref href="#step2571c40878f6d97e49ea99d57285f67b/SST-2" outputclass="partsListRef">PM005340</xref>
+<xref keyref="r46fee07a-7cd5-4ca0-a512-5c21b8798687" outputclass="include" href="r46fee07a-7cd5-4ca0-a512-5c21b8798687">
+</xref>
+</cmd>
+<info outputclass="timing">
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C10" value="C10" conref="">
+<data name="description">C3 is about X</data>
+<data name="time">0.6</data>
+</data>
+<data name="qty">2</data>
+<data name="assisted">1</data>
+</data-about>
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C2" value="C2" conref="">
+<data name="description">C2 is about X</data>
+<data name="time">0.2</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+<data-about>
+<data conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C2" name="dbaCode" conref="" value="C2">
+<data name="description">C2 is about X</data>
+<data name="time">0.2</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+</info>
+</step>
+<step id="S4B1FE763-DAF7-409E-A3DF-661A98A7BCF9" importance="optional" audience="Burkina_Faso" platform="LWB_SW-UV">
+<cmd>
+<xref href="#step2571c40878f6d97e49ea99d57285f67b/PART-24" outputclass="partsListRef">PM005430</xref>Test 8<xref keyref="r46fee07a-7cd5-4ca0-a512-5c21b8798687" outputclass="include" href="r46fee07a-7cd5-4ca0-a512-5c21b8798687">
+</xref>
+<image id="img-001" href="fig08-1.jpg" alt="fig08-1" placement="break">
+</image>
+<image id="img-002" href="Untitled.svg" alt="Untitled" placement="break">
+</image>
+<xref keyref="r46fee07a-7cd5-4ca0-a512-5c21b8798687" outputclass="include" href="r46fee07a-7cd5-4ca0-a512-5c21b8798687">
+</xref>
+</cmd>
+<info outputclass="timing">
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C1" value="C1" conref="">
+<data name="description">C1 does this and that</data>
+<data name="time">0.5</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C4" value="C4" conref="">
+<data name="description">C4 does Z</data>
+<data name="time">0.1</data>
+</data>
+<data name="qty">3</data>
+<data name="assisted">4</data>
+</data-about>
+</info>
+</step>
+<step id="S75B3234B-3E12-4FB8-BFA4-D049BA7CD251">
+<cmd>Test 2 <xref keyref="r46fee07a-7cd5-4ca0-a512-5c21b8798687" outputclass="include" href="r46fee07a-7cd5-4ca0-a512-5c21b8798687" props="keep(true)">
+</xref>
+</cmd>
+<info outputclass="timing">
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/tfu2" value="tfu2" conref="">
+<data name="description">tfu2 does Y</data>
+<data name="time">0.8</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">2</data>
+</data-about>
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C10" value="C10" conref="">
+<data name="description">C3 is about X</data>
+<data name="time">0.6</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/tfu" value="tfu" conref="">
+<data name="description">C3 does Y</data>
+<data name="time">0.7</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+</info>
+</step>
+<step id="S549E7F10-0749-4072-8376-449DFEF07B2C">
+<cmd>Test 11 <xref keyref="r46fee07a-7cd5-4ca0-a512-5c21b8798687" outputclass="include" href="r46fee07a-7cd5-4ca0-a512-5c21b8798687">
+</xref>
+<xref outputclass="include" href="r46fee07a-7cd5-4ca0-a512-5c21b8798687" keyref="r46fee07a-7cd5-4ca0-a512-5c21b8798687">
+</xref>
+</cmd>
+<info outputclass="timing">
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C4" value="C4" conref="">
+<data name="description">C4 does Z</data>
+<data name="time">0.1</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C2" value="C2" conref="">
+<data name="description">C2 is about X</data>
+<data name="time">0.2</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C10" value="C10" conref="">
+<data name="description">C3 is about X</data>
+<data name="time">0.6</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C1" value="C1" conref="">
+<data name="description">C1 does this and that</data>
+<data name="time">0.5</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/tfu" value="tfu" conref="">
+<data name="description">C3 does Y</data>
+<data name="time">0.7</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+</info>
+</step>
+<step id="SA59CDF79-53D5-436F-8586-D90A785C7786">
+<cmd>test dba<xref outputclass="include" href="r46fee07a-7cd5-4ca0-a512-5c21b8798687" keyref="r46fee07a-7cd5-4ca0-a512-5c21b8798687">
+</xref>
+<xref outputclass="include" href="REPOS-DBA-01" keyref="REPOS-DBA-01">
+</xref>
+</cmd>
+<info outputclass="timing">
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C10" value="C10" conref="">
+<data name="description">C3 is about X</data>
+<data name="time">0.6</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+</info>
+</step>
+<step id="S8E9B7BFC-E8DE-407B-9579-4F2BC5976CD7">
+<cmd>Test</cmd>
+<info outputclass="timing">
+<data-about>
+<data conref="" name="dbaCode" value="C10" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C10">
+<data name="description">C3 is about X</data>
+<data name="time">0.6</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+</info>
+</step>
+<step id="S0629558C-8ABF-41EC-8B94-B93D482FC868">
+<cmd>Test 14</cmd>
+<info outputclass="timing">
+<data-about>
+<data conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C4" name="dbaCode" value="C4" conref="">
+<data name="description">C4 does Z</data>
+<data name="time">0.1</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+<data-about>
+<data name="dbaCode" conkeyref="TOPIC__6D780720EFE34F0BA8A1F554406D48E9/C4" conref="" value="C4">
+<data name="description">C4 does Z</data>
+<data name="time">0.1</data>
+</data>
+<data name="qty">1</data>
+<data name="assisted">1</data>
+</data-about>
+</info>
+<info>
+<note id="_A3669FCD786D4343943F1F1C70EC9D6B" type="caution">
+<p>Test Caution</p>
+</note>
+<note type="warning" id="_F6D6504675344A88B728447D40510649">
+<p>Test Warning</p>
+</note>
+<note id="_DF6D26B11D4946E4A6BE81DF735E89E0" type="note">
+<p>Test Note</p>
+</note>
+<note type="note">
+<p>Test Note 2</p>
+</note>
+<note type="warning" id="_B44899CE008C49F79D11FBF88F60506B">
+<p>
+<?xm-replace_text Type new paragraph here ?>
+</p>
+</note>
+</info>
+</step>
+<step id="SF0F50020-FE9E-4DB1-BAA0-C5691277F68A">
+<note type="warning" id="_7B243B7B7DD04865B96ECD17935C2888">
+<p>
+<?xm-replace_text Type new paragraph here ?>
+</p>
+</note>
+<note id="_E35F3257ACEC49E5A83877A5E99B4A9F">
+<p>
+<?xm-replace_text Type new paragraph here ?>
+</p>
+</note>
+<note id="_997D3541F82E4B869A04C49C4ECAC08B">
+<p>
+<?xm-replace_text Type new paragraph here ?>
+</p>
+</note>
+<cmd>
+<physValue physProperty="pressure-nm">100</physValue>.</cmd>
+<info>
+<note id="_D6C680623E444DBD86B22628E8E68D1C">
+<p>
+<?xm-replace_text Type new paragraph here ?>
+</p>
+</note>
+</info>
+</step>
+</steps>
+</taskbody>
+</task>
